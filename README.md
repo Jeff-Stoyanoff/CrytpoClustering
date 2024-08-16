@@ -1,4 +1,4 @@
-Overview
+Overview:
 The purpose of the analysis was to assess the risk level prospective loans and endeavor to predict which prospective loans represent good risks or bad risks for the financial institution in question.
 The data utilized covered information pertinent to the loan such as loan size and interest rate along with data about the prospective borrower such as income, number of accounts, derogatory marks, and total debt.  The goal was to predict an eventual loan status with a 0 indicating a loan in good standing and a 1 indicating a loan determined to be high risk.
 A logistical regression model, A Decision Tree model, and a K Neighbors model were each implemented utilizing a train-test split to fine tune accuracy before being run on the data itself.  After the models were run, a confusion matrix was created so that the evaluation could be assessed for overall accuracy.
